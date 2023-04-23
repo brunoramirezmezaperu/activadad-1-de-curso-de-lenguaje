@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Información del curso de Lenguaje de programación</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="mi_script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Información del curso</h1>
+    </header>
+   
+   <style>
+    body {
+  background-image: url("https://previews.123rf.com/images/peshkova/peshkova1803/peshkova180300363/96797701-fondo-de-pantalla-html-creativo-concepto-de-codificaci%C3%B3n-programaci%C3%B3n-y-tecnolog%C3%ADa-exposicion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+    
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+     }
+    
+    
+    nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 32, 100);
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    position: relative;
+    }
+    
+    nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    }
+    
+    nav ul li:hover > ul {
+    display: block;
+    }
+    
+    nav ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      background-color: rgb(0, 42, 100);
+      width: 6em; /* Modificación: se reduce el ancho del menú */
+    }
+    
+    nav ul ul li {
+    display: block;
+    }
+    
+    nav ul ul li a {
+    color: #fff;
+    padding: 0.5em;
+
+    }
+    
+    nav ul ul ul {
+    left: 100%;
+    top: 0;
+    }
+    
+    
+    main {
+      padding: 50px;
+    }
+    
+    footer {
+      background-color: #35d650;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-top: 25px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .course-details {
+      text-align: left;
+      margin-bottom: 50px;
+    }
+    
+    .course-details h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    
+    .course-details p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.5;
+      font-size: 20px;
+      background-color: rgb(255, 145, 0);
+      padding: 20px;
+      border-radius: 40px;
+    }
+    
+    .materials {
+      text-align: left;
+      margin-bottom: 50px;
+    }
+    
+    .materials h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    
+    .materials li {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    
+    .exams {
+      text-align: left;
+    }
+    
+    .exams h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    
+    .exams ol {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    
+    .exams li {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    
+    .course-details img {
+     border-radius: 40px;
+     left: 140px;
+        }
+
+    .course-details h3 {
+      font-weight: bold;
+      font-size: 30px;
+    }  
+    
+   nav li a:hover{
+    color: #ff0000;
+   
+    }
+        
+        
+     </style>
+
+    <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca del Docente</a></li>
+          <li class="dropdown">
+            <a href="#">Materiales</a>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Resultado de Exámenes</a>
+            <ul>
+              <li><a href="#">Examen 1</a></li>
+              <li><a href="#">Examen 2</a></li>
+              <li><a href="#">Examen 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    <main>
+      <div class="course-details">
+        
+        <center>
+        <img
+          src="https://lh3.googleusercontent.com/3DGi10kfvEIpDznuGZeQhCJBnl5YySgdR3zGOknAHajiE74h6uhQIVbQFbHefYyuGH8i2RLvX2Bh9dl7pIGNJqFwkWuJg0Sryc1jgVAj" width="300" height="200"
+          alt="El Profesor: ARTURO PEDRO PUCUHUAYLA MARTINEZ"/>
+        </center>
+        <h3>Sumilla</h3>
+        <p>La unidad didáctica Lenguajes para el Desarrollo y Soporte de Sistemas corresponde a la carrera de Diseño y Desarrollo de Software, tiene carácter teórico-práctico. A través de ella se busca que el estudiante sea capaz de desarrollar páginas web interactivas utilizando HTML, CSS, Javascript, control de versiones GitHub, sitio web GitHub Pages, entorno de Cloud Computing Firebase y herramienta de desarrollo de software Visual Studio Code, de manera colaborativa formando parte de un equipo de trabajo. 
+        El desarrollo de la unidad didáctica es fundamental porque permitirá al estudiante utilizar su pensamiento algorítmico y aplicarlo a casos prácticos, usando diversas herramientas digitales de desarrollo de software.
+      </p>
+         
+        <h3>Unidad de Competencia</h3>
+        <p>
+          Desarrollar la construcción de programas de los sistemas de
+          información, de acuerdo al diseño funcional, estándares
+          internacionales de TI, buenas prácticas de programación y políticas de
+          seguridad de la organización.
+        </p>
+
+        <h3>Capacidad de la Unidad Didáctica</h3>
+        <p>
+          Desarrollar páginas web interactivas utilizando HTML, CSS, Javascript,
+          control de versiones GitHub, sitio web GitHub Pages, entorno de Cloud
+          Computing Firebase y herramienta de desarrollo de software Visual
+          Studio Code, de manera colaborativa formando parte de un equipo de
+          trabajo.
+        </p>
+
+        <h3>Indicadores de Logro</h3>
+        <p>
+          1. Aplica elementos, etiquetas y atributos de HTML para elaborar
+          páginas web utilizando la herramienta de desarrollo de software Visual
+          Studio Code, de manera colaborativa como parte de un equipo de
+          trabajo. 2. Aplica estilos CSS a páginas web de acuerdo a un diseño
+          gráfico definido previamente, de manera colaborativa como parte de un
+          equipo de trabajo. 3. Utiliza el lenguaje de programación Javascript
+          para elaborar páginas web interactivas, respetando su sintaxis y
+          participando de manera colaborativa como parte de un equipo de
+          trabajo. 4. Despliega un proyecto web en el entorno de Cloud Computing
+          Firebase, de manera colaborativa como parte de un equipo de trabajo
+        </p>
+        <h3>Competencias para la empleabilidad</h3>
+        <p>
+          Esta unidad contribuirá con el desarrollo de las siguientes
+          competencias de empleabilidad: ● Trabajo en equipo y solución de
+          problemas: Enfrentar situaciones problemáticas para poder
+          solucionarlas, desde la diferencia, la empatía y la gestión de
+          emociones. ● Competencias digitales: Cloud Computing como condición
+          tecnológica para el desarrollo profesional. Utilizar software de
+          producción y análisis de datos.
+        </p>
+        <h3>Metodología de aprendizaje basado en proyectos</h3>
+        <p>
+          La metodología que utiliza la unidad didáctica es activa, consiste en
+          implementar proyectos orientados a permitir que los estudiantes
+          desarrollen diferentes competencias mientras los proyectos se
+          ejecutan. Esto permitirá fomentar el aprendizaje en clase con la
+          participación activa y significativa de los estudiantes. Es importante
+          señalar que a la par con el desarrollo de las clases, los estudiantes
+          deberán investigar o realizar actividades que complementen lo abordado
+          en cada sesión. Así, la autonomía y la responsabilidad son actitudes
+          fundamentales para el proceso de enseñanza y aprendizaje.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
